@@ -1,0 +1,20 @@
+.menu-item {
+    transition: 0.3s ease-in-out 0.02s;
+}
+
+.menu-item:hover {
+    transform: scale(1.15);
+}
+
+
+.slide {
+    transition: 0.2s ease-in-out 0.02s;
+    right: 0;
+    display: flex;
+}
+
+.hide {
+    transition: 0.2s ease-in-out 0.02s;
+    right: -44;
+    display: flex;
+}
